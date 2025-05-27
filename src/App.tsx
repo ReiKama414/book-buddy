@@ -31,7 +31,10 @@ function App() {
 						<p>BookBuddy - Discover your next favorite book</p>
 						<p className="mt-1">Data provided by Open Library API</p>
 						<p className="mt-1">
-							&copy; {new Date().getFullYear()} <Link to="https://github.com/ReiKama414/book-buddy" target="_blank">ReiKama414</Link>
+							&copy; {new Date().getFullYear()}{" "}
+							<Link to="https://reikama-414-site-v3.vercel.app" target="_blank">
+								ReiKama414
+							</Link>
 						</p>
 					</div>
 				</footer>
